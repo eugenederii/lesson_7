@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+[class*="__container"] {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 12px;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+
+img {
+    margin-top: 92px;
+    width: 100%;
+}
+
+.first_text {
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+.second_text {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.third_text {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.comment {
+    padding-left: 58px;
+    margin-top: 48px;
+    max-width: 752px;
+    height: 120px;
+}
+
+.comment_text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+.little_text {
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.list {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    margin-top: 4px;
+}
+
+.footer {
+    margin-top: 24px;
+}
+
+.footer_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.homework {
+    margin-top: 100px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #cc2daa;
+    padding: 15px;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 20px 5px 0 rgb(12, 32, 216), -20px 5px 0 rgb(231, 211, 32);
+    color: #000;
+    transition: all 0.2s ease 0s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.button:hover {
+    margin-top: 3px;
+    box-shadow: 0 5px 0 #000;
+    background-color: #7f2dcc;
+    color: rgb(20, 214, 85);
+}
+
+.next {
+    margin-top: 50px;
+}
+
+.enim_text {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.bcg_1 {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    border: 2px solid rgb(214, 15, 15);
+    background: url("../img/bcg_img.jpg") repeat;
+}
+
+.bcg_2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background: url("../img/starline.jpg") fixed center;
+}
+
+.bcg_3 {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background: url("../img/shot.png") 0 0/450px 180px no-repeat;
+}
+
+.bcg_4 {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background: url("../img/shot.png") center;
+    background-repeat: repeat-y;
+}
+
+.bcg_5 {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background: url("../img/shot.png");
+    background-repeat: repeat-x;
+}
+
+.footer__container {
+    background: #ffccff;
+}
+
+.bcg_6 {
+    margin-top: 100px;
+}
+
+.bcg_content {
+    min-height: 400px;
+    background: url("../img/pair.jpg") 0 0 / contain no-repeat, url("../img/paair.png") 0 0 / 30px 45px, #e4240ab7;
+}
+
+.bcg_7 {
+    margin-top: 150px;
+}
+
+.bcg_cover {
+    min-height: 300px;
+    background: url("../img/car.jpg") 50% no-repeat, #424551;
+    margin-bottom: 100px;
+}
